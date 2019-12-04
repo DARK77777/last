@@ -1,0 +1,22 @@
+[
+  {
+  "pavadinimas" : "Home",
+  "adresas" : "html/home.html"
+  },
+  {
+    "pavadinimas": "Subscribe",
+    "adresas": "html/subscribe.html"
+  },
+  {
+    "pavadinimas": "About",
+    "adresas": "html/about.html"
+  },
+  {
+    "pavadinimas": "Services",
+    "adresas": "html/servise.html"
+  },
+  {
+    "pavadinimas": "Contact",
+    "adresas": "html/contact.html"
+  }
+]

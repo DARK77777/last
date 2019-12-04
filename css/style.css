@@ -1,1 +1,70 @@
-﻿
+﻿body {
+
+    color: #fff;
+    background: linear-gradient(145deg, #7ab081, #0b4b76, #3c35a3, #6335a3, #2b3219, #227b4d);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: bgAnimated 32s ease infinite;
+    -moz-animation: bgAnimated 32s ease infinite;
+    -o-animation: bgAnimated 32s ease infinite;
+    animation: bgAnimated 32s ease infinite;
+}
+@-webkit-keyframes bgAnimated {
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+@-moz-keyframes bgAnimated {
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+@-o-keyframes bgAnimated {
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+@keyframes bgAnimated {
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+
+main {
+    padding-top: 350px;
+}
+
+.simbol {
+    border: 1px solid #fff;
+
+}
+
+.menu-item {
+    margin-right: 30px;
+    color: #fff;
+}
+
+.menu-item:hover{
+   color: #252729;
+}
+
+header{
+}
+
+h4 {
+    text-align: left;
+}
+
+.l {
+    text-align: left;
+}
+
+.copyright-container p {
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-align:right;
+}
+
+.socials-icons ul li{
+    text-decoration: none;
+}
