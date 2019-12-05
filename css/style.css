@@ -30,9 +30,7 @@
     100%{background-position:0% 5%}
 }
 
-main {
-    padding: 13vh;
-}
+
 .simbol {
     display: -ms-flexbox;
     display: flex;
@@ -102,7 +100,7 @@ h4 {
 }
 
 nav ul {
-    margin:0 0 -30px -30px;
+    margin:0 0 10px -30px;
     list-style:none;
 }
 
@@ -123,14 +121,12 @@ nav ul li{
     border-radius: .25rem;
     width: 100%;
 }
-.navbar-collapse{
-    justify-content: flex-end;
-}
 
-.copyright-container p {
-    padding-top: 50px;
+
+/*.copyright-container {
+    padding: 130px;
     float:right;
-}
+}*/
 
 .socials-icons ul li{
     text-decoration: none;
@@ -138,10 +134,10 @@ nav ul li{
 
 footer p {
     margin:0;
-    padding-top: 0px;
+    padding-top: 140px;
+    padding-left: 700px;
     padding-right: 30px;
     padding-bottom: 10px;
-    float:right;
 }
 
 .navbar-toggler-icon {
@@ -174,6 +170,14 @@ footer p {
         background-color: #fff;
         justify-content: center;
     }
+    footer p {
+        align-content: center;
+        margin:0;
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
     nav ul li{
         display:inline;
     }
@@ -191,7 +195,7 @@ footer p {
         margin-left: 30px;
     }
     .home {
-        margin-top: 50px;
+        margin-top: 0;
     }
     .about {
         margin-top: 20px;
