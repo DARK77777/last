@@ -1,7 +1,7 @@
 [
   {
-  "pavadinimas" : "Home",
-  "adresas" : "html/home.html"
+    "pavadinimas": "Home",
+    "adresas": "html/home.html"
   },
   {
     "pavadinimas": "Subscribe",
